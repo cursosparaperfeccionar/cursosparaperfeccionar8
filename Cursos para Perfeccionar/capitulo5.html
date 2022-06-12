@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/icono.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/2252397fab.js" crossorigin="anonymous"></script>
+    <title>Listas</title>
+</head>
+<body>
+    <header class="inicio">
+		<div class="contenedor-textos">
+			<h1>CAPITULO V</h1>
+            <h1>LISTAS</h1>
+		</div>
+		<img src="imagenes/logo2.png" alt="">
+		<div>
+			<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+		</div>
+    </header>
+
+    <div class="contenedores">
+        <aside>
+            <div class="contenedor2">
+                <form action="">
+                    <div class="selectbox">
+                        <div class="select" id="select">
+                            <div class="contenido-select">
+                                <h1 class="titulo">Proximo Capitulo</h1>
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+        
+                        <div class="opciones" id="opciones">
+                            <a href="capitulo6.html" class="opcion">
+                                <div class="contenido-opcion">
+                                    <img src="imagenes/imagenes.svg" alt="">
+                                    <div class="textos">
+                                        <h1 class="titulo">Capitulo VI</h1>
+                                        <p class="descripcion">Imagenes.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        </aside>
+        <section>
+            <h2>Video Tutorial</h2>
+            <br>
+            <div style="text-align: center;"> <video src="videos/lista punto.mp4" controls></video> </div>
+            <br>
+            <br>
+            <h2>Aspectos Claves</h2>
+            <p>Utilizamos listas para mostrar una sucesión de elementos que guardan relación entre ellos. Podemos distinguir entre listas ordenadas (orderer list) que se crean con la etiqueta &lt;ol&gt; y listas sin ordenar o desordenadas (unorderer list), que utilizan con la etiqueta &lt;ul&gt;. Ambas listas deben de contener una serie de elementos de lista (list items), delimitados por las etiquetas &lt;li&gt;&lt;/li&gt;. La diferencia entre ambas, es que el navegador al mostrarlas las enumera en el caso de las listas ordenadas, mientras que en las desordenadas muestra viñetas. 
+                Aunque se utilizan menos, también veremos las listas de definición &lt;dl&gt;</p>
+            <p> La ventaja de utilizar estos tipos de listas de HTML frente a las estructuras de listas que podríamos crear nosotros mismos es que es más fácil trabajar con ellas y que el navegador ya realiza unas acciones de formato por defecto, como insertar los números de la ordenación, las viñetas, los saltos de línea, etc. Luego mediante hojas de estilo podemos personalizar el formato. Junto a párrafos y encabezados, las listas son uno de los elementos más empleados para insertar texto en una web.</p>
+        </section>
+    </div>
+
+
+
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="imagenes/logo2.png" alt="logo de la empresa">
+                        </a>
+                    </figure>
+                </div>	
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Ofrecemos un sitio web donde encontraras cursos para perfeccionar el diseño de paginas web</p>
+                    <P>¿Quieres contactarme? ¡Perfecto! Aqui mismo te dejo mis correo que es:</P>
+                    <p>Correo: cursosparaperfeccionar@gmail.com</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/Cursos-para-Perfeccionar-el-Dise%C3%B1o-de-Paginas-Web-105753882145023" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/cursosparaperfeccionar" class="fa fa-instagram"></a>
+                        <a href="https://www.youtube.com/channel/UC7--woGxweitY1yZJiuBIZA" class="fa fa-youtube"></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Sitio Web creado por</b> - Cursos para Perfeccionar el Diseño de Paginas web.</small>
+            </div>
+        </footer>
+
+        <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+<!--	--------------->
+	<input type="checkbox" id="btn-menu">
+		<div class="container-menu">
+			<div class="cont-menu">
+				<nav>
+					<a href="inicio.html">Inicio</a>
+					<a href="curso1.html">Curso de HTML</a>
+                    <a href="https://www.facebook.com/Cursos-para-Perfeccionar-el-Dise%C3%B1o-de-Paginas-Web-105753882145023">Facebook</a>
+					<a href="https://www.youtube.com/channel/UC7--woGxweitY1yZJiuBIZA">Youtube</a>
+					<a href="https://www.instagram.com/cursosparaperfeccionar/">Instagram</a>
+					<a href="index.html">Cerrar Sesión</a>
+				</nav>
+				<label for="btn-menu">X</label>
+			</div>
+		</div>   
+	</header>
+
+    <script src="menu.js"></script>
+
+</body>
+</html>

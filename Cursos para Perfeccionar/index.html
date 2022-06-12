@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="icon" href="imagenes/icono.png">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet" >
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Cursos para Perfecchonar </title>
+</head>
+<body class="fondo1">
+    <div class="login-container">
+      <div class="login-info-container">
+        <h1 class="title">INICIAR SESIÓN </h1>
+          <form class="inputs-container" action="seleccion.html" method="post" name="form" onsubmit="return validated()"> 
+            <div class="font">Usuario</div>
+            <input class="input" autocomplete="off" type="text" name="usuario" placeholder="Ej.Cursos07"> 
+            <div id="usuario_error">Porfavor ingrese su Usuario</div>
+            <div class="font font2">Contraseña</div>
+            <input class="input" type="password" name="password" placeholder="Mínimo 8 caracteres">
+            <div id="password_error">Porfavor ingrese su Contraseña</div>
+            <button type="submit">Iniciar Sesión</button>
+          </form>
+          <a class="span" href="registro.html">¿Aun no te Registras?</a> 
+      </div>
+          <img class="image-container" src="imagenes/imagen 2.png" alt="">
+    </div>
+    <script src="validación2.js"></script>
+</body>
+</html>
